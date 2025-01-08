@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+    color:white;
+}
+
+
+
+
+.navbar{
+    height:70px;
+    background-color: #0f1111;
+    display:flex;
+    align-items:centre;
+    
+}
+.nav-logo{
+    height:60px;
+    width:100px;
+   
+
+}
+.logo{
+    
+    background-image:url("Amazon-logo.png");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+.border:hover
+{
+    border:1px solid white;
+}
+.add-icon{
+    display:flex;
+    color:#ffffff
+}
+.nav-adress{
+    padding-top:10px;
+}
+.top-add{
+    font-size: 14px;
+    color:#666666;
+    padding-left: 10px;
+}
+.search{
+    display:flex;
+    height:40px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.search-bar{
+    width:600px;
+    color:black;
+    font-size:1rem;
+   
+}
+.search-bar:hover{
+    border:2px solid orange;
+}
+.search-icon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:0px;
+    height:40px;
+    width:40px;
+    background-color:#febd69;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    font-size:1.2rem;
+    color:black;
+    
+}
+.search-icon:hover{
+    background-color:#735e02;
+}
+.drop-down{
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    font-size:0.7rem;
+    font-style:sans-serif;
+    color:#0f1111;
+}
+.flags{
+    display:flex;
+    height:60px;
+    width:100px;
+    align-items:center;
+    justify-content: center;
+
+}
+.country_flag{
+    margin-left:10px;
+    height:25px;
+    width:25px;
+}
+.country_flag2{
+    background-image:url("indian_flag.png");
+    background-size:cover;
+    height:25px;
+    width:100%;
+
+}
+.country_text{
+margin-left:2px;
+height:25px;
+width:40px;
+color:white;
+background-color: black;
+}
+.top_nav4{
+    font-size:0.8rem;
+    font-weight:700px;
+    margin-top:15px;
+}
+.bottom_nav4{
+    font-size:0.9rem;
+    font-weight:700;
+}
+.nav5{
+    margin-left:20px;
+}
+.nav-cart{
+    display:flex;
+    padding-top:20px;
+    margin-left:20px;
+}
+.nav-cart-top{
+    font-size: 1.4rem;
+    font-weight:700px;
+}
+.nav-cart-bottom
+{
+    margin-top:8px;
+    font-size:1rem;
+    font-weight:800px;
+}
+.menu-bar{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    align-items:center;
+}
+p{
+    display:inline;
+    margin-left:10px;
+
+    
+}
+.menu1{
+    width:70px;
+    margin-left:10px;
+    
+}
+.menu2{
+    width:600px;
+    
+}
+.menu3{
+    width:300px;
+    margin-left:500px;
+}
+.hero{
+    background-image:url("hero_page.jpg");
+    background-size:cover;
+    height:500px;
+    width:100%;
+    /* display:flex;
+    justify-content:space-evenly;
+    align-items:flex-end; */
+
+}
+
+.box{
+    padding:15px;
+    margin-top: 30px;
+    height:350px;
+    width:290px;
+    background-color: #ffffff;
+    overflow: visible;
+    margin:20px; 
+}
+    
+.shopping_items{
+    position:relative;
+    bottom:270px;
+    height:320px;
+    width:100vw;
+    display:flex;
+    justify-content:space-evenly;
+        
+    }
+.box_img{
+    margin-top:10px;
+    height:80px;
+    width:80px;
+    background-size:cover;
+}
+
+ .outer_box_flex{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+} 
+.inner_box{
+    
+    text-align: center;
+}
+.box4{
+    margin-top: 30px;
+    height:500px;
+    width:250px;
+    /* margin:20px;  */
+    display:flex;
+    flex-direction:column;
+}
+.box4_top{
+    padding:15px;
+    margin-top: 30px;
+    height:100px;
+    width:220px;
+    margin:20px;
+    background-color: #ffffff;
+    position:relative;
+    right:35px;
+    bottom:30px;
+}
+.box4_bottom{
+    padding:15px;
+    margin-top: 30px;
+    height:200px;
+    width:240px;
+    margin:20px;
+    background-color: #ffffff;
+    background-image: url('iphone_img.jpg');
+    background-size:cover;
+    position:relative;
+    right:38px;
+    bottom:50px;
+}
+ .shopping_items2{
+    position:relative;
+    background-color: #e3e6e6;
+    bottom:200px;
+    height:550px;
+    width:100vw;
+    display:flex;
+    justify-content:space-evenly;
+
+} 
+.topfooter{
+    height:50px;
+    background-color:#37475a;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.secondfooter{
+    height:350px;
+    background-color:#232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1.5px dotted white;
+    
+}
+ ul a{
+    display:block;
+    margin-top:10px;
+    font-size: 0.8rem;
+}
+.thirdfooter{
+    height:100px;
+    background-color:#232f3e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourthfooter{
+    height:450px;
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
